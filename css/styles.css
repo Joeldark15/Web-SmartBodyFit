@@ -485,11 +485,44 @@ section {
 
 /* ============ TIME ============ */
 #time img {
-    max-width: 600px;
+    max-width: 100%;
+    width: 610px;
     display: block;
     margin: 0 auto;
     filter: drop-shadow(0 20px 40px rgba(7, 16, 31, 0.12));
     border-radius: 12px;
+}
+
+/* ============ ARCHITECTURE ============ */
+.architecture-frame {
+    background: #fff;
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s var(--ease-out);
+}
+.architecture-frame::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--sbf-primary), var(--sbf-accent));
+}
+.architecture-frame:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+.architecture-diagram {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* ============ FOOTER ============ */
