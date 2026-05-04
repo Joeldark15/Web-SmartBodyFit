@@ -301,6 +301,10 @@ section {
 }
 .nav-tabs-sbf .nav-link.active::after { width: 80%; }
 
+#educem{
+    font-weight: bold;
+}
+
 .feature-content { padding: 1rem 0; }
 .feature-content .tab-pane.show.active {
     animation: tabFadeIn 0.5s var(--ease-out);
