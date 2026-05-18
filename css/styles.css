@@ -360,6 +360,10 @@ section {
     transform: scale(1.05) rotate(-5deg);
 }
 
+.mt-3{
+    font-size: 30px;
+}
+
 /* ============ TECHNOLOGIES ============ */
 .tech-card {
     background: #fff;
